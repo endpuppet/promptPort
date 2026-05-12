@@ -1,0 +1,31 @@
+{
+  "bundle_name": "Writing Tools",
+  "author": "PromptPort",
+  "version": "1.0",
+  "presets": [
+    {
+      "name": "ChatGPT — Technical Documentation",
+      "role": "code_reviewer",
+      "model": "chatgpt",
+      "basePrompt": "Write technical documentation for a REST API endpoint. Include: endpoint URL, HTTP method, request parameters with types, response schema, error codes, and a curl example. [Constraints: Use OpenAPI 3.0 format. Include rate limiting notes.]"
+    },
+    {
+      "name": "Claude — Policy Analysis",
+      "role": "research_analyst",
+      "model": "claude-sonnet",
+      "basePrompt": "Analyze the proposed AI regulation policy. Structure: 1) Summary of key provisions, 2) Impact assessment on startups vs enterprises, 3) Comparison with EU AI Act, 4) Unintended consequences, 5) Recommendations. [Constraints: Cite specific sections. Note ambiguities.]"
+    },
+    {
+      "name": "Kimi — Literary Translation",
+      "role": "creative_writer",
+      "model": "kimi",
+      "basePrompt": "Translate the following Chinese poem into English while preserving: meter, imagery, cultural references, and emotional tone. Provide: literal translation, poetic translation, and translator's notes on difficult choices. [Constraints: Maintain line breaks. Annotate cultural allusions.]"
+    },
+    {
+      "name": "MiniMax — Social Media Campaign",
+      "role": "exec_summarizer",
+      "model": "minimax",
+      "basePrompt": "Create a 5-post social media campaign for a new eco-friendly sneaker launch. Each post should have: hook, body copy, CTA, and suggested visual description. [Constraints: Platform-specific (Instagram/Twitter/LinkedIn). Include hashtag strategy.]"
+    }
+  ]
+}

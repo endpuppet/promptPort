@@ -1,0 +1,37 @@
+{
+  "bundle_name": "UI/Design Pack",
+  "author": "PromptPort",
+  "version": "1.0",
+  "presets": [
+    {
+      "name": "Ideogram — App Icon Set",
+      "role": "graphic_designer",
+      "model": "ideogram-3",
+      "basePrompt": "[Text: \"Fit\" in bold rounded font] [Subject: abstract human figure in motion, geometric] [Style: app icon, flat design, gradient blue to purple, 1024x1024] [Exclude: texturing, shadows, complex details]"
+    },
+    {
+      "name": "GPT Image 2 — Landing Page Hero",
+      "role": "graphic_designer",
+      "model": "gpt-image-2",
+      "basePrompt": "[Subject: SaaS dashboard mockup on floating laptop] [Environment: gradient background, subtle grid pattern] [Text: \"Analytics Reimagined\" in bold sans-serif, \"Real-time insights for modern teams\" in light weight below] [Style: modern SaaS landing page, clean, professional] [Constraints: 16:9 aspect ratio, readable at 1200px wide, no clutter] [Use case: Website hero section]"
+    },
+    {
+      "name": "Gemini Nano — Design System",
+      "role": "graphic_designer",
+      "model": "gemini-nano",
+      "basePrompt": "[Subject: complete design system components: buttons, inputs, cards, toggles, dropdowns] [Environment: clean white canvas with grid] [Style: Material Design 3, rounded corners, elevation shadows] [Text: \"Primary\", \"Secondary\", \"Disabled\" labels] [Exclude: decorative elements, photos]"
+    },
+    {
+      "name": "FLUX — 3D Render",
+      "role": "product_designer",
+      "model": "flux-dev",
+      "basePrompt": "[Subject: sleek wireless charger, matte white with copper accent ring] [Environment: minimalist desk setup, soft shadow] [Camera: 3/4 angle, macro detail] [Lighting: softbox, clean reflections] [Style: product 3D render, Octane, photorealistic] [Exclude: fingerprints, dust, clutter]"
+    },
+    {
+      "name": "MAI 2 — Packaging Design",
+      "role": "graphic_designer",
+      "model": "mai-2",
+      "basePrompt": "[Subject: luxury perfume box, black matte with gold foil embossing] [Environment: marble surface, soft ambient light] [Text: \"NOIR\" in elegant serif, embossed] [Style: premium packaging, unboxing aesthetic, tactile materials] [Camera: top-down flat lay] [Exclude: plastic, bright colors]"
+    }
+  ]
+}

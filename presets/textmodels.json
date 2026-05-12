@@ -1,0 +1,43 @@
+{
+  "bundle_name": "Text Models Pack",
+  "author": "PromptPort",
+  "version": "1.0",
+  "presets": [
+    {
+      "name": "ChatGPT — Prompt Engineering",
+      "role": "code_reviewer",
+      "model": "chatgpt",
+      "basePrompt": "Improve the following prompt for better LLM performance. Analyze: clarity, specificity, structure, and potential ambiguities. Provide: revised prompt, reasoning for changes, and a rubric for evaluation. [Constraints: Follow chain-of-thought best practices. Include few-shot examples if applicable.]"
+    },
+    {
+      "name": "Claude — Ethical Dilemma",
+      "role": "debate_partner",
+      "model": "claude-sonnet",
+      "basePrompt": "Present a nuanced analysis of the trolley problem in the context of autonomous vehicle programming. Consider: utilitarian vs deontological frameworks, legal liability, public trust, and edge cases. [Constraints: Steel-man both sides. Identify logical fallacies in common arguments.]"
+    },
+    {
+      "name": "Gemini Flash — Data Analysis",
+      "role": "research_analyst",
+      "model": "gemini-flash",
+      "basePrompt": "Analyze the following dataset and provide: 1) Descriptive statistics, 2) Trend identification, 3) Anomaly detection, 4) Predictive insights, 5) Visualization recommendations. [Constraints: Note confidence intervals. Flag data quality issues.]"
+    },
+    {
+      "name": "Kimi — Historical Analysis",
+      "role": "research_analyst",
+      "model": "kimi",
+      "basePrompt": "Compare the Industrial Revolution and the AI Revolution across: economic impact, labor displacement, societal adaptation, regulatory response, and long-term outcomes. [Constraints: Use primary sources where possible. Note historiographical debates.]"
+    },
+    {
+      "name": "GLM — Medical Literature Review",
+      "role": "research_analyst",
+      "model": "glm",
+      "basePrompt": "Review recent literature on mRNA vaccine technology. Summarize: mechanism of action, efficacy data, safety profiles, and emerging applications. [Constraints: Cite DOIs. Note study limitations. Distinguish peer-reviewed from preprint.]"
+    },
+    {
+      "name": "MiniMax — Character Development",
+      "role": "creative_writer",
+      "model": "minimax",
+      "basePrompt": "Develop a complex antagonist for a cyberpunk novel. Include: backstory, motivation, moral ambiguity, relationship to protagonist, and character arc. [Constraints: Avoid cartoonish evil. Show vulnerability. Make motivations relatable.]"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "bundle_name": "Starter Pack",
+  "author": "PromptPort",
+  "version": "2.0",
+  "description": "Curated presets for ChatGPT, Claude, Gemini, Kimi, GLM, MiniMax, FLUX, Nano Banana, MAI 2, Meta AI, and GPT Image 2",
+  "presets": [
+    {
+      "name": "FLUX — Cinematic Portrait",
+      "role": "photo_director",
+      "model": "flux-dev",
+      "basePrompt": "[Subject: woman in flowing crimson coat] [Environment: foggy stone bridge at golden hour] [Action: turning to look over her shoulder] [Camera: 85mm f/1.4, shallow depth of field] [Lighting: warm backlight through mist, rim lighting on hair] [Style: cinematic, film grain, anamorphic lens flare] [Mood: melancholic, mysterious] [Exclude: modern buildings, crowds, cars]"
+    },
+    {
+      "name": "FLUX — Cyberpunk Alley",
+      "role": "photo_director",
+      "model": "flux-dev",
+      "basePrompt": "[Subject: cyberpunk hacker in reflective chrome jacket] [Environment: rain-soaked Tokyo alley at night] [Action: typing on holographic keyboard] [Camera: Sony A7IV 35mm f/1.4] [Lighting: cyan and magenta neon signs, wet asphalt reflections] [Style: Blade Runner aesthetic, cinematic] [Mood: tense, atmospheric] [Exclude: cars, crowds, modern signage]"
+    },
+    {
+      "name": "FLUX — Product Hero Shot",
+      "role": "product_designer",
+      "model": "flux-dev",
+      "basePrompt": "[Subject: matte black wireless earbuds on white marble slab] [Camera: macro 100mm f/2.8, top-down angle] [Lighting: 3-point studio setup, softbox key, gradient background] [Style: commercial product photography, clean minimal] [Mood: premium, sophisticated] [Exclude: fingerprints, dust, harsh shadows]"
+    },
+    {
+      "name": "Gemini Nano — Infographic Poster",
+      "role": "graphic_designer",
+      "model": "gemini-nano",
+      "basePrompt": "[Text: \"CLIMATE ACTION 2026\" in bold sans-serif, \"Reduce. Reuse. Regenerate.\" subtitle] [Subject: Earth with green energy rings] [Environment: dark space background with data visualization elements] [Style: modern infographic, flat design, teal and coral palette] [Exclude: clutter, small unreadable text, photorealistic humans]"
+    },
+    {
+      "name": "Gemini Nano — Concept Art",
+      "role": "concept_artist",
+      "model": "gemini-nano",
+      "basePrompt": "[Subject: floating crystal city above storm clouds] [Environment: twilight sky, aurora borealis] [Style: Syd Mead meets Studio Ghibli, color script: deep purple #4B0082 vs electric gold #FFD700] [Mood: wonder, scale, ethereal] [Camera: wide establishing shot] [Exclude: humans, vehicles, modern architecture]"
+    },
+    {
+      "name": "MAI 2 — Commercial Fashion",
+      "role": "fashion_stylist",
+      "model": "mai-2",
+      "basePrompt": "[Subject: androgynous model in oversized structured wool coat with exaggerated shoulders] [Environment: minimalist concrete gallery space] [Action: mid-stride, coat billowing] [Lighting: single overhead spotlight, dramatic shadow] [Style: runway editorial, FW26 couture, raw silk lining visible] [Camera: medium format, 80mm equivalent] [Exclude: jewelry, patterns, bright colors]"
+    },
+    {
+      "name": "MAI 2 — Architectural Render",
+      "role": "architect",
+      "model": "mai-2",
+      "basePrompt": "[Subject: cantilevered concrete pavilion overlooking ocean] [Environment: coastal cliff, golden hour, native grasses] [Style: Tadao Ando minimalism, material palette: board-formed concrete, glass, weathered steel] [Lighting: warm west-facing sun, long shadows] [Camera: drone elevation, wide angle] [Exclude: people, vehicles, vegetation inside structure]"
+    },
+    {
+      "name": "Meta AI — Social Media Post",
+      "role": "graphic_designer",
+      "model": "meta-ai",
+      "basePrompt": "[Subject: vibrant smoothie bowl with fresh fruit] [Environment: bright marble kitchen counter] [Style: Instagram food photography, high saturation, top-down angle] [Text: \"Morning Fuel\" in playful script font] [Mood: fresh, healthy, energetic] [Exclude: clutter, dirty dishes, artificial lighting]"
+    },
+    {
+      "name": "Meta AI — Pet Portrait",
+      "role": "photo_director",
+      "model": "meta-ai",
+      "basePrompt": "[Subject: golden retriever puppy] [Environment: sunny garden with dappled light] [Action: sitting attentively, tongue out] [Style: warm portrait photography, soft focus background] [Mood: joyful, wholesome] [Exclude: leash, collar, humans]"
+    },
+    {
+      "name": "GPT Image 2 — UI Mockup",
+      "role": "graphic_designer",
+      "model": "gpt-image-2",
+      "basePrompt": "[Subject: mobile banking app dashboard] [Environment: clean white background with subtle gradient] [Text: \"Balance: $12,450\" in Inter Bold, \"Recent Transactions\" section header] [Style: flat UI design, iOS guidelines, rounded corners, soft shadows] [Constraints: No real bank logos, no sensitive data, clean spacing 8px grid] [Use case: App store screenshot]"
+    },
+    {
+      "name": "GPT Image 2 — Book Cover",
+      "role": "graphic_designer",
+      "model": "gpt-image-2",
+      "basePrompt": "[Subject: silhouette of lone astronaut on red Martian dune] [Environment: twin moons in dusty orange sky] [Text: \"RED DUST\" in bold condensed sans-serif top center, \"A Mars Chronicle\" in light serif below] [Style: sci-fi book cover, cinematic composition, high contrast] [Constraints: No NASA logos, readable at thumbnail size, 2:3 aspect ratio] [Use case: E-book cover]"
+    },
+    {
+      "name": "Ideogram — Logo Design",
+      "role": "graphic_designer",
+      "model": "ideogram-3",
+      "basePrompt": "[Text: \"NEXUS\" in bold geometric sans-serif, all caps, tracking wide] [Subject: abstract interlocking hexagon mark] [Style: minimalist tech logo, single color navy blue on white, vector clean lines] [Exclude: gradients, shadows, photorealistic elements, small details]"
+    },
+    {
+      "name": "Ideogram — Event Poster",
+      "role": "graphic_designer",
+      "model": "ideogram-3",
+      "basePrompt": "[Text: \"SUMMER FEST 2026\" in bold retro font top, \"July 15-17 - Central Park\" in clean sans-serif below] [Subject: abstract sunburst with music notes] [Style: retro-modern poster, warm orange and cream palette, bold typography] [Exclude: small text, cluttered layout, photorealistic people]"
+    },
+    {
+      "name": "SD 3.5 — Fantasy Character",
+      "role": "concept_artist",
+      "model": "sd35",
+      "basePrompt": "[Subject: elven archer with crystalline bow] [Environment: bioluminescent forest] [Style: fantasy concept art, highly detailed, dramatic lighting] [Camera: medium shot, eye level] [Mood: heroic, mystical] [Exclude: modern elements, humans, technology]"
+    },
+    {
+      "name": "SD 3.5 — Anime Style",
+      "role": "concept_artist",
+      "model": "sd35",
+      "basePrompt": "[Subject: schoolgirl with twin tails and oversized headphones] [Environment: Tokyo street at dusk, cherry blossoms] [Style: anime, vibrant colors, cel shading] [Camera: portrait, slight low angle] [Mood: energetic, youthful] [Exclude: realistic proportions, western cartoon style]"
+    },
+    {
+      "name": "ChatGPT — Code Review Prompt",
+      "role": "code_reviewer",
+      "model": "chatgpt",
+      "basePrompt": "Review the following Python function for edge cases, security vulnerabilities, and performance issues. Provide specific line-by-line feedback and suggest improvements. [Constraints: Check for SQL injection, race conditions, memory leaks. Suggest unit tests.]"
+    },
+    {
+      "name": "ChatGPT — Creative Writing",
+      "role": "creative_writer",
+      "model": "chatgpt",
+      "basePrompt": "Write a short story opening (300 words) about a lighthouse keeper who discovers a message in a bottle from the future. Use sensory detail and establish the character's voice. [Style: Literary fiction, atmospheric, slow-burn tension] [Constraints: No dialogue in the opening. Focus on environment and internal monologue.]"
+    },
+    {
+      "name": "Claude — Legal Contract Analysis",
+      "role": "legal_drafter",
+      "model": "claude-sonnet",
+      "basePrompt": "Analyze the following software license agreement. Identify: 1) Defined terms and their scope, 2) Limitation of liability clauses, 3) Termination conditions, 4) Jurisdiction and governing law, 5) Any ambiguous language that could favor either party. [Constraints: Flag any unlimited liability, auto-renewal traps, or IP assignment clauses.]"
+    },
+    {
+      "name": "Claude — Research Synthesis",
+      "role": "research_analyst",
+      "model": "claude-sonnet",
+      "basePrompt": "Synthesize the following three research papers on transformer architecture improvements. For each: summarize methodology, grade evidence quality (Strong/Moderate/Weak), identify limitations, and note conflicts between findings. [Constraints: Distinguish correlation from causation. Note sample sizes and replication status.]"
+    },
+    {
+      "name": "Gemini Flash — Socratic Tutor",
+      "role": "socratic_tutor",
+      "model": "gemini-flash",
+      "basePrompt": "Help me understand why neural networks need activation functions. Use the Socratic method: ask me leading questions, check my misconceptions, and guide me to the answer without telling me directly. [Constraints: Never give the mathematical formula upfront. Start with intuition.]"
+    },
+    {
+      "name": "Gemini Flash — Executive Summary",
+      "role": "exec_summarizer",
+      "model": "gemini-flash",
+      "basePrompt": "Summarize the following quarterly report into an executive briefing. Structure: 1) TL;DR (1 sentence), 2) Key metrics with YoY comparison, 3) Stakeholder impact by department, 4) Top 3 risks, 5) Recommended actions with owners. [Constraints: No hedging language. Quantify everything possible. Flag any red flags immediately.]"
+    },
+    {
+      "name": "Kimi — Long Document Analysis",
+      "role": "research_analyst",
+      "model": "kimi",
+      "basePrompt": "Analyze this 200-page technical whitepaper on quantum computing applications in drug discovery. Extract: 1) Key hypotheses and their evidence, 2) Methodology critique, 3) Comparison with competing approaches, 4) Gaps in current research, 5) Future directions with highest potential. [Constraints: Note confidence levels. Flag speculative claims.]"
+    },
+    {
+      "name": "Kimi — Bilingual Content",
+      "role": "creative_writer",
+      "model": "kimi",
+      "basePrompt": "Write a bilingual (English/Chinese) product description for a smart home device. The English version should be concise and technical. The Chinese version should be warm and lifestyle-focused. Maintain brand voice consistency across both. [Constraints: Technical specs must match exactly. Cultural adaptation is encouraged.]"
+    },
+    {
+      "name": "GLM — Structured Data Extraction",
+      "role": "research_analyst",
+      "model": "glm",
+      "basePrompt": "Extract all named entities, dates, monetary values, and relationships from the following business news article. Output as structured JSON with confidence scores. [Constraints: Handle ambiguous references. Flag uncertain extractions. Support both English and Chinese text.]"
+    },
+    {
+      "name": "GLM — Academic Paper Outline",
+      "role": "research_analyst",
+      "model": "glm",
+      "basePrompt": "Create a detailed outline for a research paper on large language model alignment. Include: abstract structure, literature review themes, methodology section, expected results, and discussion points. [Constraints: Follow APA formatting. Cite seminal works. Address ethical considerations.]"
+    },
+    {
+      "name": "MiniMax — Creative Dialogue",
+      "role": "creative_writer",
+      "model": "minimax",
+      "basePrompt": "Write a dramatic dialogue between a time traveler from 2147 and a historian from 2026. The traveler reveals a shocking truth about a major historical event. Build tension through subtext and pauses. [Style: Theater script format, minimal stage directions] [Constraints: No exposition dumps. Show emotion through dialogue beats.]"
+    },
+    {
+      "name": "MiniMax — Marketing Copy",
+      "role": "exec_summarizer",
+      "model": "minimax",
+      "basePrompt": "Write persuasive marketing copy for a sustainable water bottle brand. Target: environmentally conscious millennials. Tone: aspirational but grounded. Include: headline, 3 bullet points, call-to-action. [Constraints: No greenwashing claims. Back every claim with specific data points.]"
+    }
+  ]
+}

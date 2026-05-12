@@ -1,0 +1,37 @@
+{
+  "bundle_name": "Photography Kit",
+  "author": "PromptPort",
+  "version": "1.0",
+  "presets": [
+    {
+      "name": "FLUX — Golden Hour Portrait",
+      "role": "photo_director",
+      "model": "flux-dev",
+      "basePrompt": "[Subject: elderly fisherman with weathered face] [Environment: wooden dock at sunrise] [Camera: 85mm f/1.4, eye-level] [Lighting: golden hour backlight, warm rim on skin] [Style: documentary portrait, Kodak Portra 400 film grain] [Mood: contemplative, timeless] [Exclude: modern buildings, tourists]"
+    },
+    {
+      "name": "MAI 2 — Fashion Editorial",
+      "role": "fashion_stylist",
+      "model": "mai-2",
+      "basePrompt": "[Subject: model in deconstructed denim jacket with raw edges] [Environment: industrial warehouse with exposed brick] [Action: leaning against steel beam, looking away] [Lighting: single hard light source, deep shadows] [Camera: medium format, 50mm equivalent] [Style: high fashion editorial, muted earth tones] [Exclude: colorful backgrounds, smiling]"
+    },
+    {
+      "name": "Gemini Nano — Food Photography",
+      "role": "photo_director",
+      "model": "gemini-nano",
+      "basePrompt": "[Subject: artisan sourdough bread with butter melting] [Environment: rustic wooden table, linen napkin] [Camera: 50mm f/2.8, 45-degree angle] [Lighting: natural window light, soft shadows] [Style: food photography, warm tones, shallow depth of field] [Mood: cozy, homemade] [Exclude: plastic, artificial props]"
+    },
+    {
+      "name": "Meta AI — Travel Snapshot",
+      "role": "photo_director",
+      "model": "meta-ai",
+      "basePrompt": "[Subject: colorful street market in Marrakech] [Environment: narrow alley with hanging lanterns] [Style: vibrant travel photography, high saturation] [Mood: lively, exotic] [Exclude: tourists, modern signs]"
+    },
+    {
+      "name": "GPT Image 2 — Corporate Headshot",
+      "role": "photo_director",
+      "model": "gpt-image-2",
+      "basePrompt": "[Subject: professional woman in navy blazer] [Environment: clean gray backdrop] [Camera: 85mm, head-and-shoulders] [Lighting: butterfly lighting, soft fill] [Style: corporate headshot, neutral, confident] [Constraints: No jewelry distractions, neutral expression, shoulders squared] [Use case: LinkedIn profile]"
+    }
+  ]
+}

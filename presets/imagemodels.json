@@ -1,0 +1,43 @@
+{
+  "bundle_name": "Image Models Pack",
+  "author": "PromptPort",
+  "version": "1.0",
+  "presets": [
+    {
+      "name": "FLUX — Sci-Fi Environment",
+      "role": "concept_artist",
+      "model": "flux-dev",
+      "basePrompt": "[Subject: abandoned space station interior] [Environment: zero gravity, floating debris, Earth visible through cracked window] [Lighting: emergency red lights, cold blue starlight] [Style: hard sci-fi, detailed mechanical, Ridley Scott aesthetic] [Mood: isolation, decay] [Exclude: aliens, monsters]"
+    },
+    {
+      "name": "MAI 2 — Chinese Ink Painting",
+      "role": "concept_artist",
+      "model": "mai-2",
+      "basePrompt": "[Subject: misty mountain landscape with solitary pine] [Environment: rolling hills disappearing into fog] [Style: traditional Chinese ink wash painting, shuimo hua, minimal brushstrokes] [Mood: serene, contemplative, wabi-sabi] [Exclude: color, modern elements, humans]"
+    },
+    {
+      "name": "Gemini Nano — Scientific Illustration",
+      "role": "graphic_designer",
+      "model": "gemini-nano",
+      "basePrompt": "[Subject: cross-section of human cell with labeled organelles] [Environment: clean white background] [Style: scientific illustration, educational, accurate anatomy] [Text: \"Mitochondria\", \"Nucleus\", \"Ribosomes\" in clean sans-serif] [Exclude: artistic flourishes, incorrect proportions]"
+    },
+    {
+      "name": "Meta AI — Meme Template",
+      "role": "graphic_designer",
+      "model": "meta-ai",
+      "basePrompt": "[Subject: distracted boyfriend meme format] [Environment: street scene] [Style: photorealistic, meme format, high contrast] [Text: placeholder text areas] [Mood: humorous, relatable] [Exclude: watermarks, low resolution]"
+    },
+    {
+      "name": "GPT Image 2 — Magazine Cover",
+      "role": "graphic_designer",
+      "model": "gpt-image-2",
+      "basePrompt": "[Subject: portrait of female astronaut in spacesuit] [Environment: Mars surface, red dust] [Text: \"VOGUE MARS\" in bold serif masthead, \"Issue 001\" in small caps] [Style: high fashion magazine cover, dramatic lighting, couture spacesuit] [Constraints: 8.5x11 aspect ratio, readable at newsstand distance, barcode area reserved] [Use case: Magazine cover mockup]"
+    },
+    {
+      "name": "SD 3.5 — Pixel Art",
+      "role": "concept_artist",
+      "model": "sd35",
+      "basePrompt": "[Subject: retro RPG character sprite sheet] [Environment: transparent background] [Style: 16-bit pixel art, limited palette, crisp pixels] [Camera: flat orthographic, multiple angles] [Exclude: anti-aliasing, gradients, blur]"
+    }
+  ]
+}
